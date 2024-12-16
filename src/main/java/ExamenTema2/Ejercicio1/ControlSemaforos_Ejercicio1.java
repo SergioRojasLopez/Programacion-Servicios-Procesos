@@ -1,9 +1,9 @@
 package ExamenTema2.Ejercicio1;
 
-public class ControlSemaforos implements Runnable {
-    private final GestionCruce gestorCruce;
+public class ControlSemaforos_Ejercicio1 implements Runnable {
+    private final GestionCruce_Ejercicio1 gestorCruce;
 
-    public ControlSemaforos(GestionCruce gestorCruce) {
+    public ControlSemaforos_Ejercicio1(GestionCruce_Ejercicio1 gestorCruce) {
         this.gestorCruce = gestorCruce;
     }
 

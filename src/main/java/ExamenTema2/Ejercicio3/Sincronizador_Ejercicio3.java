@@ -4,7 +4,7 @@ import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
-class Sincronizador {
+class Sincronizador_Ejercicio3 {
     private final int MAX_NUM_PATAS;
     private final int MAX_NUM_TABLEROS;
     private int patasDisponibles = 0;
@@ -17,7 +17,7 @@ class Sincronizador {
     private final Condition tablerosCondition = lock.newCondition();
     private final Condition ensambladoresCondition = lock.newCondition();
 
-    public Sincronizador(int maxNumPatas, int maxNumTableros, int limiteMesas) {
+    public Sincronizador_Ejercicio3(int maxNumPatas, int maxNumTableros, int limiteMesas) {
         this.MAX_NUM_PATAS = maxNumPatas;
         this.MAX_NUM_TABLEROS = maxNumTableros;
         this.LIMITE_MESAS = limiteMesas;

@@ -3,7 +3,7 @@ package ExamenTema2.Ejercicio2;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
-public class Monitor {
+public class Monitor_Ejercicio2 {
     private boolean r1Disponible = true;
     private boolean r2Disponible = true;
     private boolean r3Disponible = true;

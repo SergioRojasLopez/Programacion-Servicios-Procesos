@@ -1,11 +1,11 @@
 package ExamenTema2.Ejercicio2;
 
-public class Tarea implements Runnable {
-    private final Monitor monitor;
+public class Tarea_Ejercicio2 implements Runnable {
+    private final Monitor_Ejercicio2 monitor;
     private final String threadName;
     private final int recursos;
 
-    public Tarea(Monitor monitor, String threadName, int recursos) {
+    public Tarea_Ejercicio2(Monitor_Ejercicio2 monitor, String threadName, int recursos) {
         this.monitor = monitor;
         this.threadName = threadName;
         this.recursos = recursos;
