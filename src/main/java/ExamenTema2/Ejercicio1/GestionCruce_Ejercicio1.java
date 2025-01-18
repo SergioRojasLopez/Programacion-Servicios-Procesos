@@ -4,7 +4,7 @@ import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
-public class GestionCruce {
+public class GestionCruce_Ejercicio1 {
     private boolean semaforoNorteVerde = true;
     private boolean semaforoOesteVerde = false;
 
